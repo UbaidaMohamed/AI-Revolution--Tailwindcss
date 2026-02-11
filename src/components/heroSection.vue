@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div className="w0full h-80 md:h-[600px]">
-                <img className="w-full h-full object-cover rounded-2xl" src="../../public/4.avif" alt="hero section">
+                <img className="w-full h-full object-cover rounded-2xl" src="../imgs/4.avif" alt="hero section">
                 <div class="absolute w-32 h-32 rounded-full bg-secondary/20 -bottom-6 -left-6 blur-xl"></div>
                 <div class="absolute w-32 h-32 rounded-full bg-accent/20 -top-3 -right-6 blur-xl"></div>
             </div>
@@ -32,5 +32,5 @@
 </template>
 
 <script setup>
-    const imgs = ['../../public/1.avif', '../../public/2.avif', '../../public/3.avif']
+    const imgs = ['../imgs/1.avif', '../imgs/2.avif', '../imgs/3.avif']
 </script>
