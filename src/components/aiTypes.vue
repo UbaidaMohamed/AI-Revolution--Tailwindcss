@@ -20,11 +20,11 @@
                         <div class="ai-type-card-icon">
                             <component :is="type.icon" class="h-8 w-8"/>
                         </div>
-                        <h3 class="text-xl font-bold">
+                        <h3 class="text-xl font-bold text-slate-300">
                             {{ type.title }}
                         </h3>
                     </div>
-                    <p class="mt-2 text-gray-600"> {{ type.description }}</p>
+                    <p class="mt-2 text-gray-600 dark:text-slate-400"> {{ type.description }}</p>
                     <div class="mt-4 flex items-center gap-x-2">
                         <span v-for="tag in type.tags" :class="tagColors[tag.color] + ' ai-type-card-tag'"> {{ tag.text }}</span>
                     </div>

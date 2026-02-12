@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-white rounded-xl shadow-lg p-6 lg:p-8">
+            <div class="bg-white rounded-xl shadow-lg p-6 lg:p-8 dark:bg-slate-800">
                 <form>
                     <div class="space-y-6">
                         <div>

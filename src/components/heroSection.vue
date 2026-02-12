@@ -6,7 +6,7 @@
                     <span class="gradient-text">Artificial Intelligence</span>
                     for a Smarter Future
                 </h1>
-                <p class="text-lg text-gray-600 max w-lg">
+                <p class="text-lg text-gray-600 dark:text-sky-200 max w-lg">
                     Discover how AI is transforming industries and improving lives worldwide. Our cutting-edge solutions harness the power of machine learning to solve complex problems.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 pt-4">

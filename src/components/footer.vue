@@ -11,16 +11,16 @@
                     </p>
                     <div class="flex space-x-4 pt-2">
                         <a href="https://www.facebook.com" target="_blank" class="footer-social-link">
-                            <AkFacebookFill class="w-6 h-6"/>
+                            <AkFacebookFill class="w-6 h-6 hover:text-[#1877F2]"/>
                         </a>
                         <a href="https://www.twitter.com" target="_blank" class="footer-social-link">
-                            <AkTwitterFill class="w-6 h-6"/>
+                            <AkTwitterFill class="w-6 h-6 hover:text-[#1DA1F2]"/>
                         </a>
                         <a href="https://www.instagram.com" target="_blank" class="footer-social-link">
-                            <AkInstagramFill class="w-6 h-6"/>
+                            <AkInstagramFill class="w-6 h-6 hover:text-[#E4405F]"/>
                         </a>
                         <a href="https://www.linkedin.com" target="_blank" class="footer-social-link">
-                            <AkLinkedInFill class="w-6 h-6"/>
+                            <AkLinkedInFill class="w-6 h-6 hover:text-[#0A66C2]"/>
                         </a>
                     </div>
                 </div>

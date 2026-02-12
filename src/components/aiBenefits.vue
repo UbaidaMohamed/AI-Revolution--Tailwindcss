@@ -1,11 +1,11 @@
 <template>
-    <section id="benefits" class="app-container py-16 bg-gradient-to-br from-dark to-gray-900 rounded-3xl text-white">
+    <section id="benefits" class="app-container py-16 bg-gradient-to-br from-dark to-gray-900 dark:bg-gradient-to-l from-sky-300/30 to-pink-300/20 rounded-3xl text-white">
         <div class="text-center mb-12">
             <span class="section-subheader">AI Benefits</span>
             <h2 class="section-header">
                 How AI is <span class="gradient-text">Transforming Our World</span>
             </h2>
-            <p class="section-description text-gray-300">
+            <p class="section-description text-gray-300 dark:text-slate-400">
                 Discover the positive impact of AI across various sectors and industries
             </p>
         </div>
@@ -14,8 +14,8 @@
                 <div :class="colorClasses[benefit.color] + ' benefit-card-icon'">
                     <component :is="benefit.icon" class="h-8 w-8"/>
                 </div>
-                <h3 class="text-xl font-bold text-white">{{ benefit.title }}</h3>
-                <p class="mt-2 text-gray-300">{{ benefit.description }}</p>
+                <h3 class="text-xl font-bold text-white dark:text-slate-300">{{ benefit.title }}</h3>
+                <p class="mt-2 text-gray-300 dark:text-slate-400">{{ benefit.description }}</p>
             </div>
         </div>
     </section>
