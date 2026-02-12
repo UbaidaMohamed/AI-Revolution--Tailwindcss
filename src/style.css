@@ -15,7 +15,7 @@
 *,
 *::before,
 *::after {
-    transition: background-color 0.7s ease, color 0.7s ease, border-color 0.7s ease;
+    transition: background-color 0.7s ease, color 0.7s ease, border-color 0.7s ease, translate 0.4s ease;
 }
 
 /* ================================
